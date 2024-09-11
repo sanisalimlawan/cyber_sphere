@@ -20,6 +20,11 @@ html {
 body {
   margin-bottom: 100px;
 }
+
+.next .prev{
+    border-radius: 50%;
+    margin:20px;
+}
 /*.big{
     max-width:1500px!important;
 }*/

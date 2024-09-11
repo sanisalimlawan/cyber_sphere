@@ -38,10 +38,18 @@ button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
+body{
+    padding-top:70px;
+}
 .big{
     max-width:100%!important;
     margin:0;
     padding:0;
+}
+.header{
+    position:fixed;
+    z-index:99;
+    width:100%;
 }
 
 /*.footer {

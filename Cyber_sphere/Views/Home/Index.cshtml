@@ -5,42 +5,42 @@
 
 <!-- Carousel Start -->
 <div class="container-fluid big px-0 big">
-    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel" >
+        @* <ol class="carousel-indicators">
             <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
             <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-        </ol>
+        </ol> *@
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
+            <div class="carousel-item active mt-5">
                 <img src="img/carousel-1.jpg" class="img-fluid" alt="First slide">
                 <div class="carousel-caption">
                     <div class="container carousel-content">
                         <h6 class="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
                         <h1 class="text-white display-1 mb-4 animated fadeInRight">An Innovative IT Solutions Agency</h1>
-                        <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
-                        <a asp-action="About" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
-                        <a asp-action="Contact" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                        <p class="mb-4 text-white fs-5 animated fadeInDown">At Cyber Sphere Solutions, we pride ourselves on being a multifaceted business center located in Zaria, Kaduna State, Nigeria. With a dedicated team we combine our expertise and passion to deliver high-quality solutions that empower our clients to thrive in an increasingly digital world.</p>
+                        <a href="#About" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                        <a href="#Contact" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item mt-5">
                 <img src="img/carousel-2.jpg" class="img-fluid" alt="Second slide">
                 <div class="carousel-caption">
                     <div class="container carousel-content">
                         <h6 class="text-secondary h4 animated fadeInUp">Best IT Solutions</h6>
                         <h1 class="text-white display-1 mb-4 animated fadeInLeft">Quality Digital Services You Really Need!</h1>
-                        <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
+                        <p class="mb-4 text-white fs-5 animated fadeInDown">We position Cyber Sphere Solutions as the go-to business center in Kaduna State for affordable, high-quality services tailored to meet the needs business owner and individuals.</p>
                         <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
                         <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" style="border-radius: 50%; width:50px; height:50px;margin:10px;">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Previous</span> 
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <button class="carousel-control-next next" type="button" data-bs-target="#carouselId" data-bs-slide="next" style="border-radius: 50%;width:50px; height:50px;margin:10px;">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -94,8 +94,10 @@
             <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                 <h5 class="text-primary">About Us</h5>
                 <h1 class="mb-4">About Cyber Sphere Agency And It's Innovative IT Solutions</h1>
-                <p>At Cyber Sphere Solutions, we pride ourselves on being a multifaceted business center located in Zaria, Kaduna State, Nigeria. With a dedicated team we combine our expertise and passion to deliver high-quality solutions that empower our clients to thrive in an increasingly digital world.</p>
-                <p class="mb-4">Our operational model incorporates both online and physical distribution channels, ensuring that we reach our customer base effectively and efficiently.</p>
+                <p>
+                    Cyber Sphere Solutions was founded with the vision of bridging the gap between traditional business services and the emerging digital landscape. Recognizing the growing demand for professional digital services, alongside essential administrative services, we embarked on this journey to create a one-stop solution for individuals and businesses alike. Our origins stem from a desire to support students, young professionals, entrepreneurs, travellers, organizations/companies, startups, educational institutions and individuals by providing them with the necessary tools and resources to succeed. Over the years, we have cultivated a reputation for excellence and reliability, enabling us to establish a loyal customer base in Kaduna state and beyond.
+                </p>
+                @* <p class="mb-4">Our operational model incorporates both online and physical distribution channels, ensuring that we reach our customer base effectively and efficiently.</p> *@
                 <a asp-action="About" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
             </div>
         </div>
@@ -117,7 +119,7 @@
                             <i class="fa fa-code fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">Web Design</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                            <a class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +131,7 @@
                             <i class="fa fa-pencil-ruler fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">Graphic Design</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                            <a asp-controller="Services" asp-action="Index" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +143,7 @@
                             <i class="fa fa-passport fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">International Passport</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                            <a asp-action="" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +155,7 @@
                             <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">(CAC) Registration</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                            <a asp-action="" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
                         </div>
 
                     </div>
@@ -166,7 +168,7 @@
                             <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">Digital Marketing</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                            <a asp-action="" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +180,7 @@
                             <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
                             <h4 class="mb-3">NIN Modification</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                            <a href="https://wa.link/lio6el" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp ml-2"></i> Whatsapp</a>
+                            <a asp-action=""  class="btn btn-secondary text-white px-5 py-3 rounded-pill"><i class="bi bi-whatsapp ml-2"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
